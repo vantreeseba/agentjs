@@ -1,0 +1,28 @@
+{
+  "name": "agentjs",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "chai": "^4.1.0",
+    "sinon": "^2.3.8"
+  },
+  "devDependencies": {
+    "mocha": "^3.4.2"
+  },
+  "watch" : {
+    "test": {
+      "patterns" : ["src", "test"],
+      "extensions": "js"
+    } 
+  },
+  "scripts": {
+    "watch": "npm-watch test",
+    "test": "mocha --recursive -u exports"
+  },
+  "author": "",
+  "license": "ISC"
+}
