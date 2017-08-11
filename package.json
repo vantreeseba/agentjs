@@ -6,12 +6,10 @@
   "directories": {
     "test": "test"
   },
-  "dependencies": {
+  "devDependencies": {
+    "mocha": "^3.4.2",
     "chai": "^4.1.0",
     "sinon": "^2.3.8"
-  },
-  "devDependencies": {
-    "mocha": "^3.4.2"
   },
   "watch" : {
     "test": {
