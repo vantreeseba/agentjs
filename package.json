@@ -21,7 +21,7 @@
   },
   "scripts": {
     "watch": "npm-watch test",
-    "test": "mocha --recursive -u exports"
+    "test": "mocha --recursive -u exports --reporter=min"
   },
   "author": "",
   "license": "ISC"

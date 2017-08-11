@@ -13,7 +13,7 @@ class Graph {
    * @param value
    * @return {GraphNode}
    */
-  addNode(value) {
+  push(value) {
     var node = new GraphNode(value);
     this.nodes.push(node);
     return node;
